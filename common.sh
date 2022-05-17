@@ -38,7 +38,8 @@ export CFLAGS="$COMMON_CFLAGS -pthread -sUSE_PTHREADS=1 -fexceptions"
 export CXXFLAGS="$COMMON_CFLAGS -pthread -sUSE_PTHREADS=1 -fexceptions"
 export LDFLAGS="$COMMON_LDFLAGS -pthread -sUSE_PTHREADS=1 -fexceptions -sEXIT_RUNTIME"
 
-export EMSDK_ROOT="$HOME/emsdk"
+export EMSDK_ROOT="$HOME/workdir/buildscripts/emscripten/emsdk-portable"
+
 export EMSDK_SYSLIB="${EMSDK_ROOT}/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten"
 export EMSDK_SYSINCLUDE="${EMSDK_ROOT}/upstream/emscripten/cache/sysroot/include"
 
