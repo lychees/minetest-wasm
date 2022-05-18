@@ -8,7 +8,7 @@ if [ -d minetest ]; then
   exit
 fi
 
-git clone -b webport "https://github.com/paradust7/minetest.git"
+git clone -b webport "https://github.com/lychees/minetest.git"
 
 pushd minetest/lib/
 
