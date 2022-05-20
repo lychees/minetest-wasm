@@ -58,3 +58,6 @@ done
 
 # Copy the irrlicht shaders
 cp -r "$IRRLICHT_REPO/media/Shaders" client/shaders/Irrlicht
+
+# Copy mods
+rsync -rv --exclude=.git "$SRC_DIR/Minetest-World/" mods

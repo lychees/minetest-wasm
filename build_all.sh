@@ -24,5 +24,6 @@ emcc --clear-cache --clear-ports
 
 # Minetest
 ./pull_minetest.sh
+./pull_mods.sh
 ./build_fsroot.sh
 ./build_minetest.sh
