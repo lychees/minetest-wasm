@@ -2,13 +2,13 @@
 
 source common.sh
 
-if [ ! -d build/fsroot/minetest/mods ]; then
-  pushd build/fsroot/minetest/mods
+if [ ! -d sources/Minetest-World ]; then
+  pushd sources
   git clone https://github.com/lychees/Minetest-World
   popd
 fi
 
-pushd build/fsroot/minetest/mods
+pushd sources/Minetest-World
 
 git pull
 
